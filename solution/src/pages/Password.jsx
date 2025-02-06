@@ -33,7 +33,7 @@ function Password() {
     createPassword()
   },[length, numAllowed, specialAllowed])
   return (
-    <div className="w-screen h-screen flex flex-col justify-center items-center bg-gray-900 text-white">
+    <div className="w-screen h-screen flex flex-col justify-center items-center  text-white">
     <div className="bg-gray-800 p-6 rounded-xl shadow-lg flex flex-col gap-5 items-center w-96">
   
       <div className="flex w-full items-center gap-3">

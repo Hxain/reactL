@@ -1,6 +1,10 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import axios from 'axios'
+
+
+import { Link } from 'react-router-dom'
+
 function App() {
   const [users, setUsers] = useState([]);
 
@@ -14,6 +18,7 @@ function App() {
   });
   return (
     <>
+    <Link to="google.com"></Link>
       <h1>USERS</h1>
       <h1>USER :{users.length}</h1>
       {
