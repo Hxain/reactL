@@ -9,6 +9,7 @@ function Home() {
         <Link to="color" className='text-lg text-white px-4 py-2 rounded-lg bg-amber-500 hover:bg-amber-600 transition'>COLOR</Link>
         <Link to="password" className='text-lg text-white px-4 py-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition'>PASSWORD</Link>
         <Link to="context" className='text-lg text-white px-4 py-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition'>CONTEXT</Link>
+        <Link to="todo" className='text-lg text-white px-4 py-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition'>Todo</Link>
       </div>
     </div>
   );

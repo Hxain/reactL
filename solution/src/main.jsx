@@ -7,6 +7,7 @@ import Home from './components/Home.jsx'
 import Color from './pages/Color.jsx'
 import Password from './pages/Password.jsx'
 import Context from './context/Context.jsx'
+import Todo from './pages/Todo.jsx'
 
 // const router = createBrowserRouter([
 //   {
@@ -28,6 +29,7 @@ const router = createBrowserRouter(
       <Route path="color" element={<Color />} />
       <Route path="password" element={<Password />} />
       <Route path="context" element={<Context />} />
+      <Route path="todo" element={<Todo />} />
     </Route>
   )
 )
