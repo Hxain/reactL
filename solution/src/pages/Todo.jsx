@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function Todo({todo}) {
+    const [todoMsg, setTodoMsg]= useState(false)
   return (
     <>
      <form  className="flex">
