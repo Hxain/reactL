@@ -1,8 +1,8 @@
-import UserContextProvider from './UserContextProvider.jsx';
+import UserContextProvider from '../UserContextProvider.jsx';
 import React, {useContext, useState} from 'react';
 import  UserContext from './UserContext.js';
 
-function Context() {
+function ContextUser() {
   const [name, setName] = useState("");
   const [password, setPassword] = useState("");
   const { user, setUser } = useContext(UserContext);
@@ -45,7 +45,7 @@ function Context() {
 export default function App() {
   return (
     <UserContextProvider>
-      <Context />
+      <ContextUser />
     </UserContextProvider>
   );
 }

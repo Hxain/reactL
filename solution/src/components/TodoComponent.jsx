@@ -1,11 +1,29 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { useTodo } from '../context/todo/TodContext'
+function TodoComponent({todo}) {
+    const [todo, setTodo] = useState("todo")
+    const {addTodo, updateTodo, deleteTodo, toogleComplete} = useTodo()
+    const [todoMsg, setTodoMsg] = useState(todo.todo)
+    const [isTodoEditable, setIsTodoEditable] = useState(false)
+    const add = (e)=>{
+        e.preventDefault()
+        
+        if (!todo) return
 
-function TodoComponent() {
+        addTodo({todo, completed:false})
+        setTodo("")
+    };
+
+    const 
+
+    
   return (
     <>
-     <form  className="flex">
+     <form onSubmit={add} className="flex">
             <input
                 type="text"
+                value={todo}
+                onChange={(e)=> setTodo(e.target.value)}
                 placeholder="Write Todo..."
                 className="w-full border border-black/10 rounded-l-lg px-3 outline-none duration-150 bg-white/20 py-1.5"
             />
