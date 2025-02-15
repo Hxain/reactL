@@ -1,4 +1,4 @@
-import UserContextProvider from '../UserContextProvider.jsx';
+import UserContextProvider from '../user/UserContextProvider.jsx';
 import React, {useContext, useState} from 'react';
 import  UserContext from './UserContext.js';
 

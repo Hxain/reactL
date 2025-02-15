@@ -1,13 +1,15 @@
-import { Children, StrictMode } from 'react'
+import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import { createBrowserRouter, createRoutesFromElements, RouterProvider, Route } from 'react-router-dom'
 import Layout from './Layout.jsx'
-import Home from './components/Home.jsx'
+import Home from './pages/Home.jsx'
 import Color from './pages/Color.jsx'
 import Password from './pages/Password.jsx'
-import ContextUser from './context/ContextUser.jsx'
+import ContextUser from './context/user/ContextUser.jsx'
 import Todo from './pages/Todo.jsx'
+
+
 
 // const router = createBrowserRouter([
 //   {
