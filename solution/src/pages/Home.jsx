@@ -10,6 +10,7 @@ function Home() {
         <Link to="password" className='text-lg text-white px-4 py-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition'>PASSWORD</Link>
         <Link to="context" className='text-lg text-white px-4 py-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition'>CONTEXT</Link>
         <Link to="todo" className='text-lg text-white px-4 py-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition'>Todo</Link>
+        <Link to="reduxtodo" className='text-lg text-white px-4 py-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition'>Redux Todo</Link>
       </div>
     </div>
   );

@@ -8,6 +8,7 @@ import Color from './pages/Color.jsx'
 import Password from './pages/Password.jsx'
 import ContextUser from './context/user/ContextUser.jsx'
 import Todo from './pages/Todo.jsx'
+import ReduxTodo from './pages/ReduxTodo.jsx'
 
 
 
@@ -32,6 +33,7 @@ const router = createBrowserRouter(
       <Route path="password" element={<Password />} />
       <Route path="context" element={<ContextUser />} />
       <Route path="todo" element={<Todo />} />
+      <Route path="reduxtodo" element={<ReduxTodo />} />
     </Route>
   )
 )
