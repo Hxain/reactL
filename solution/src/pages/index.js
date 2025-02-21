@@ -1,0 +1,7 @@
+export { default as Home } from "./Home"
+export { default as Color} from "./Color"
+export { default as Github} from "./Github"
+export { default as Password} from "./Password"
+export { default as ReduxTodo} from "./ReduxTodo"
+export { default as Todo} from "./Todo"
+export { default as ContextUser} from "./ContextUser"

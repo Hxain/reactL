@@ -1,14 +1,14 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import { createBrowserRouter, createRoutesFromElements, RouterProvider, Route } from 'react-router-dom'
-import Layout from './Layout.jsx'
-import Home from './pages/Home.jsx'
-import Color from './pages/Color.jsx'
-import Password from './pages/Password.jsx'
-import ContextUser from './context/user/ContextUser.jsx'
-import Todo from './pages/Todo.jsx'
-import ReduxTodo from './pages/ReduxTodo.jsx'
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import { createBrowserRouter, createRoutesFromElements, RouterProvider, Route } from 'react-router-dom';
+
+import Layout from './Layout.jsx';
+import './index.css';
+
+import { Home, Color, ContextUser, Github, Password, ReduxTodo, Todo } from "./pages"
+
+
+
 
 
 
@@ -34,6 +34,7 @@ const router = createBrowserRouter(
       <Route path="context" element={<ContextUser />} />
       <Route path="todo" element={<Todo />} />
       <Route path="reduxtodo" element={<ReduxTodo />} />
+      <Route path="github" element={<Github />} />
     </Route>
   )
 )
